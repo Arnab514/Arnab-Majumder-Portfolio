@@ -197,16 +197,16 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    {/* <Image src={project?.image} /> */}
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    {/* <Date>{project.date}</Date> */}
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
-                    {project.member && (
+                    {/* {project.member && (
                         <>
                             <Label>Members</Label>
                             <Members>
@@ -224,7 +224,7 @@ const index = ({ openModal, setOpenModal }) => {
                                 ))}
                             </Members>
                         </>
-                    )}
+                    )} */}
                     <ButtonGroup>
                         <Button dull href={project?.github} target='new'>View Code</Button>
                         <Button href={project?.webapp} target='new'>View Live App</Button>
