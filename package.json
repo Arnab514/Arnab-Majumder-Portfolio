@@ -1,7 +1,7 @@
 {
   "name": "Arnab-Majumder-Portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Arnab514",
+  "homepage": "https://Arnab514.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -27,6 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
