@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 const Document = styled.img`
     display: none;
@@ -176,8 +177,12 @@ const ExperienceCard = ({ experience }) => {
             </Description>
             {experience.doc &&
                 <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
+                    <button type="button" > click to see LOR </button>
+                    {/* <Document src={experience.doc} /> */}
                 </a>
+                // <NavLink to = {experience.doc} >
+                //     <button>LOR</button>
+                // </NavLink>
             }
         </Card>
     )
