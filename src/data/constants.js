@@ -12,7 +12,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Arnab514",
   resume:
-    "https://drive.google.com/file/d/1Zqw6h3c68VOnARRP2RDDw5qQrLrYx3Og/view?usp=sharing",
+    "https://drive.google.com/file/d/1AQzNAL0WdS51WHVEdvbtjxeVavKaMPXv/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/arnab-majumder-923ab41bb/",
   twitter: "https://twitter.com/ArnabMajumder26",
   // insta: "https://www.instagram.com/rishav_chanda/",
