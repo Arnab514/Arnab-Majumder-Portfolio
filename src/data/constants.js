@@ -3,16 +3,17 @@
 export const Bio = {
   name: "Arnab Majumder",
   roles: [
+    "Software Developer",
     "Full Stack Developer",
     "Frontend Developer",
-    "UI/UX Designer",
+    "Backend Developer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Arnab514",
   resume:
-    "https://pink-raeann-38.tiiny.site",
+    "https://drive.google.com/file/d/1r5MJb4aHMDxBwYiD8ZAU-xw_l-lfLr32/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/arnab-majumder-923ab41bb/",
   twitter: "https://twitter.com/ArnabMajumder26",
   // insta: "",
