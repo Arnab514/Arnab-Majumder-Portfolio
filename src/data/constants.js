@@ -134,50 +134,50 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "DevOps",
-  //   skills: [
-  //     {
-  //       name: "AWS",
-  //       image:
-  //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Google Cloud",
-  //       image:
-  //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-  //     },
-  //     {
-  //       name: "Docker",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-  //     },
-  //     {
-  //       name: "Jenkins",
-  //       image:
-  //         "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-  //     },
-  //     {
-  //       name: "Nginx",
-  //       image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Grafana",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-  //     },
-  //     {
-  //       name: "Kubernetes",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-  //     },
-  //     {
-  //       name: "Prometheus",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "DevOps",
+    skills: [
+      // {
+      //   name: "AWS",
+      //   image:
+      //     "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      // },
+      {
+        name: "Google Cloud",
+        image:
+          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+      },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      // },
+      // {
+      //   name: "Jenkins",
+      //   image:
+      //     "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      // },
+      {
+        name: "Nginx",
+        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+      },
+      // {
+      //   name: "Grafana",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      // },
+      // {
+      //   name: "Kubernetes",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      // },
+      // {
+      //   name: "Prometheus",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+      // },
+    ],
+  },
   // {
   //   title: "Android",
   //   skills: [
@@ -293,10 +293,36 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://res.cloudinary.com/dvtcahjvh/image/upload/v1733832469/Blackcoffer_Logo_bntius.jpg",
+    role: "Associate Software Engineer",
+    company: "Blackcoffer",
+    date: "September 2024 - Present",
+    desc: "Developed and delivered 5+ web applications with full-stack solutions (React, Node.js, MongoDB), integrating AI features like live video call transcription, Improved app performance by 30 percent, ensuring seamless user experiences and scalable backends.",
+    skills: [
+      "ReactJS",
+      "NextJs",
+      "JavaScript",
+      "TypeScript",
+      "Firebase",
+      "Supabase",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "GCP",
+      "Ngrok"
+    ],
+    // doc: "https://drive.google.com/file/d/1OOHinA_2BgmQFLypVuwmG9LVcnGQ6W7X/view?usp=sharing",
+    // https://res.cloudinary.com/dvtcahjvh/image/upload/v1733832469/Blackcoffer_Logo_bntius.jpg
+  },
+  {
+    id: 1,
     img: "https://res.cloudinary.com/dvtcahjvh/image/upload/v1721204102/raiumdt5tetcrciygtoc.png",
     role: "Full Stack Developer Intern",
     company: "Hoichoi Tech, SVF",
-    date: "April 2024 - Present",
+    date: "Mar 2024 - August 2024",
     desc: "Doing open source contribution on Hoichoi-opensource, Become a open source project maintainer, Developing scalable and production based code for the company, Growing and learning new tech stacks with the help of senior developers.",
     skills: [
       "ReactJS",
@@ -313,9 +339,10 @@ export const experiences = [
       "CSS",
     ],
     // doc: "https://drive.google.com/file/d/1OOHinA_2BgmQFLypVuwmG9LVcnGQ6W7X/view?usp=sharing",
+    // https://res.cloudinary.com/dvtcahjvh/image/upload/v1733832469/Blackcoffer_Logo_bntius.jpg
   },
   {
-    id: 0,
+    id: 2,
     img: "https://res.cloudinary.com/studentbe/image/upload/f_auto,fl_progressive,q_auto:good,w_800/GEA_logo_zr50pv",
     role: "Frontend Engineer Intern",
     company: "Global Entrepreneurship Alliance",
